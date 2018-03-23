@@ -1,0 +1,29 @@
+the_thing = 'thing2'
+
+an_int = 1
+
+a_float = 1.5
+
+a_double = 1.5
+
+the_bool = False
+
+nothing = None
+
+the_list = [1, 2, 3]
+
+a_dict = { {0: 'nothing'}, {1: 'nothing2'}}
+
+a_dict = ()
+a_dict ['my_key'] = 'the value'
+
+
+//functions
+def the_function_name(arg1, arg2, another_arg=None):
+
+
+def add(aperand1, operand2);
+	return operand1+operand2
+
+add(2, 2) <<this returns 4
+print(add(2, 2)) <<this prints 4
