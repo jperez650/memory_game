@@ -24,7 +24,7 @@ class App extends Component {
       <div className="jumbotron">
         <h2>Click on an image and earn a point, but dont click the same image or GAME OVER</h2>
       </div>
-      <div className="title">Score<br></br>{this.state.score} | {this.state.prevScore}</div>
+      <div className="title">Stats<br></br>Your Score {this.state.score} | {this.state.prevScore} Highest Score</div>
         {this.state.goku.map((gokuu, index) => (
           <GokuCard key={index}
             image={gokuu.image}
