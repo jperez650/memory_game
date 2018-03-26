@@ -1,4 +1,4 @@
-# Memosry Game
+# Memory Game
 
 ![Memory Game](memoryGame.png "Memory Game Cards")
 
