@@ -22,9 +22,9 @@ class App extends Component {
       <Wrapper>
       <h1 className="title">Memory Game</h1>
       <div className="jumbotron">
-        <h2>Click on an image and earn a point, but dont click the same image or GAME OVER</h2>
+        <h2>Click on the images to get a point. <br></br>Make sure you don't click on the same image twice, <br></br> If you do your score will go back to 0.</h2>
       </div>
-      <div className="title">Stats<br></br>Your Score {this.state.score} | {this.state.prevScore} Highest Score</div>
+      <div className="score">Stats<br></br>Your Score {this.state.score} | {this.state.prevScore} Highest Score</div>
         {this.state.goku.map((gokuu, index) => (
           <GokuCard key={index}
             image={gokuu.image}

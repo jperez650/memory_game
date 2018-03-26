@@ -9,3 +9,10 @@
   align-content: flex-start;
   overflow: auto;
 }
+
+.jumbotron {
+  width: 100%;
+  font-size: 12rem;
+  text-align: center;
+  
+}
